@@ -11,10 +11,9 @@ export function AppLayout({ children }: AppLayoutProps) {
     <div className="flex flex-col min-h-screen bg-gradient-to-br from-purple-400 via-pink-500 to-red-500">
       <header className="bg-white/10 backdrop-blur-md text-white p-4">
         <nav className="container mx-auto flex justify-between items-center">
-          <Link href="/" className="text-2xl font-bold">Image Upload App</Link>
+          
           <ul className="flex space-x-4">
-            <li><Link href="/" className="hover:underline">Home</Link></li>
-            <li><Link href="/about" className="hover:underline">About</Link></li>
+            
           </ul>
         </nav>
       </header>

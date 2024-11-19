@@ -4,7 +4,7 @@ import { ImageProcessor } from '@/components/app-components-image-processor'  //
 export default function Home() {
   return (
     <div className="container mx-auto py-8">
-      <h1 className="text-3xl font-bold mb-8 text-center">Image Processing App</h1>
+      <h1 className="text-3xl font-bold mb-8 text-center">Snapscribe</h1>
       <ImageProcessor />
     </div>
   )

@@ -5,8 +5,8 @@ import { AppLayout } from '@/components/app-components-app-layout'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Snapscribe',
-  description: 'Upload and process images',
+  title: '',
+  description: '',
 }
 
 export default function RootLayout({
